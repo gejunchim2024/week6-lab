@@ -3,7 +3,7 @@ class DuckFine:
     
     DAILY_FEE  = 0.50
     GRACE_DAYS = 2
-    MAX_FEE    = 5.00
+    MAX_FEE    = 3.00
     # dollars per chargeable day
     # the first two days late are forgiven # a single fine never exceeds this
     def __init__(self, member_id): 
